@@ -21,6 +21,16 @@ screensaver.py [video1 video2 ...]
 ```
 The script can play videos, music, and images in any combination. Paths can be provided as arguments or defined in a special variable within the script.
 
+## Known Issues
+
+Videos play normally when you run the script yourself, but when script is started on idle, elements of desktop environment are seen over it. This is a product of feature called "Focus stealing prevention". When system thinks the window appeared without user input, it prevent this window from taking the focus. To solve, disable the feature globally or only for windows with word MPVScreensaver as part of the title. 
+
+
+Mouse pointer sometimes does not hide until mouse is moved. Working on it. 
+
+
+On multimonitor systems two videos start on the same monitor - tell me if you encounter this reliably. 
+
 ## Other
 * This project was written with use of DeepSeek AI. 
 * This project is managed with `UV`
