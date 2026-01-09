@@ -23,15 +23,15 @@ The script can play videos, music, and images in any combination. Paths can be p
 
 ## Known Issues
 
-Videos play normally when you run the script yourself, but when script is started on idle, elements of desktop environment are seen over it. This is a product of feature called "Focus stealing prevention". When system thinks the window appeared without user input, it prevent this window from taking the focus. To solve, disable the feature globally or only for windows with word MPVScreensaver as part of the title. 
+Videos play normally when you run the script yourself, but when the script is started on idle, elements of the desktop environment are seen over the videos. This is an effect of a feature called "Focus stealing prevention". When the system thinks the window appeared without a user input, it prevents this window from taking the focus. To solve, disable the feature globally or only for the windows with the word MPVScreensaver as a part of the title. 
 
 
-Mouse pointer sometimes does not hide until mouse is moved. Working on it. 
+Mouse pointer sometimes does not hide until the mouse is moved. Working on it. 
 
 
-On multimonitor systems two videos start on the same monitor - tell me if you encounter this reliably. 
+On multimonitor systems, two videos start on the same monitor - tell me if you encounter this reliably. 
 
 ## Other
-* This project was written with use of DeepSeek AI. 
+* This project was written with the use of DeepSeek AI. 
 * This project is managed with `UV`
 
