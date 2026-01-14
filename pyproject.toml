@@ -1,6 +1,6 @@
 [project]
 name = "MPVScreensaver"
-version = "0.1.0"
+version = "1.0.0"
 description = "Plays videos fullscreen, in a loop, using MPV"
 readme = "README.md"
 requires-python = ">=3.13"
